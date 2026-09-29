@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones - Cupcraft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/1.css">
+</head>
+<body>
+
+    <header class="top-header">
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="logo-container">
+            <a href="index.html">
+                <span class="brand-name">Cupcraft</span>
+                <img src="logoo-removebg-preview.png" alt="Cupcraft Logo" class="logo-img">
+            </a>
+        </div>
+    </header>
+
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <aside class="sidebar" id="sidebar">
+        <nav>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="productos.html">Productos ▾</a>
+                    <ul class="submenu">
+                        <li><a href="productos.html#cafes">☕ Cafés</a></li>
+                        <li><a href="productos.html#postres">🍰 Postres</a></li>
+                    </ul>
+                </li>
+                <li><a href="promos.html">Promociones</a></li>
+                <li><a href="horarios.html">Horarios</a></li>
+                <li><a href="informacion.html">Información General</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+
+        <section id="promos" class="section">
+            <h2 class="title">Combos & Promociones del Mes</h2>
+            <div class="grid-cards">
+                <div class="card promo-card">
+                    <span class="badge">Ahorra 15%</span>
+                    <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=500&q=80" alt="Combo Mañanero">
+                    <h3>Combo Mañanero</h3>
+                    <p>Café Americano o Latte grande + Croissant de Almendras.</p>
+                    <span class="price">$5.99</span>
+                </div>
+                <div class="card promo-card">
+                    <span class="badge">Popular</span>
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=500&q=80" alt="Tarde Dulce">
+                    <h3>Tarde Dulce para Dos</h3>
+                    <p>2 Cappuccinos Vainilla + 2 Rebanadas de Pastel Velvet.</p>
+                    <span class="price">$14.50</span>
+                </div>
+                <div class="card promo-card">
+                    <span class="badge">Especial</span>
+                    <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=500&q=80" alt="Experiencia Cupcraft">
+                    <h3>Experiencia Cupcraft</h3>
+                    <p>1 Cold Brew Reserva + Tiramisú Italiano + 1 Macaron.</p>
+                    <span class="price">$10.00</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Derechos reservados - Isaac Vasquez & David Lara</p>
+        </footer>
+
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
